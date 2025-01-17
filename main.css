@@ -1,0 +1,367 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background: rgb(7, 8, 26);
+}
+.divWraper{
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+
+}
+.mainParent {
+    display: flex;
+    gap: 95px;
+}
+.conteiner{
+    max-width: 1040px;
+    width: 100%;
+    padding: 0px 20px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding: 14px 0px;
+    border-bottom: 1px solid #003004;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 112px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    gap: 16px;
+}
+ul {
+    list-style: none;
+}
+.navlist {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.newInternet {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+h2 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 36px;
+        line-height: 44px;
+    
+}
+.stylep {
+    color: rgb(122, 122, 122);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.styleButton1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    border-radius: 24px;
+    background: rgb(255, 55, 26);
+    padding: 12px 24px;
+}
+.stylebutton2 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 12px 24px;
+    gap: 10px;
+    border-radius: 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 44, 51);
+    border-image: initial;
+}
+.imgStyle {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.divStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    gap: 32px;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    gap: 32px;
+}
+.stylegap {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.maindiv {
+    display: flex;
+    gap: 24px;
+}
+.divone {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.styleBorderradius {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 381px;
+    border-radius: 12px;
+    background: rgb(25, 25, 25);
+    padding: 16px;
+}
+.flexstyle {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.styleSpan {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.stylep {
+    color: rgb(122, 122, 122);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.styleBorderradiustwo {
+    display: flex
+;
+    align-items: center;
+    align-self: stretch;
+    height: 275px;
+    border-radius: 12px;
+    background: rgb(25, 25, 25);
+    padding: 16px;
+    gap: 24px;
+}
+.styleBorderradiustre {
+    display: flex
+;
+    align-items: center;
+    align-self: stretch;
+    height: 178px;
+    border-radius: 12px;
+    background: rgb(25, 25, 25);
+    padding: 16px;
+    gap: 24px;
+}
+.flexstyle {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.gapstyletwo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    gap: 
+}
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 36px;
+    line-height: 44px;
+}
+.divp {
+    color: rgb(122, 122, 122);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    gap: 32px;
+}
+.divrewiu {
+    display: flex;
+    gap: 24px;
+}
+.gapstyle {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.reviuone {
+    display: flex;
+    width: 508px;
+    min-width: 360px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+    border-radius: 12px;
+    background: rgb(25, 25, 25);
+}
+.styleSpan {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.styleBorderradiusfor {
+    display: flex
+;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 12px;
+    background: rgb(25, 25, 25);
+}
+.gapstyle {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.reviuone {
+    display: flex
+;
+    width: 508px;
+    min-width: 360px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+    border-radius: 12px;
+    background: rgb(25, 25, 25);
+}
+.reviup {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.rewiuFoto {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.divspan {
+    display: flex;
+    flex-direction: column;
+}
+.styleSpanrewiu {
+    color: rgb(83, 88, 98);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.divstyletwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgb(25, 25, 25);
+}
+.divmainfor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+.divmainfor p {
+    color: rgb(122, 122, 122);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.styledivform {
+    display: flex;
+    gap: 12px;
+}
+.emailstyle {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    max-width: 310px;
+    width: 100%;
+    padding: 12px 14px;
+    gap: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(122, 122, 122);
+    border-image: initial;
+    background: rgb(11, 11, 14);
+}
+.spanstyle {
+    color: rgb(122, 122, 122);
+    font-size: 14px;
+    font-weight: 400;
+}
+.buttonstyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 24px;
+    gap: 10px;
+    border-radius: 12px;
+    background: rgb(255, 55, 26);
+}
+.conteiner {
+    max-width: 1040px;
+    width: 100%;
+    padding: 0px 20px;
+}
+.styledivfive {
+    display: flex;
+    gap: 32px;
+}
+.styledivfive span {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+}
+.styledivfive p {
+    color: rgb(122, 122, 122);
+    font-size: 18px;
+    font-weight: 400;
+}
