@@ -25,7 +25,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    padding: 14px 0px;
+    : 14px 0px;
     border-bottom: 1px solid #003004;
 }
 main {
@@ -51,7 +51,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    text-transform: capitalize;
+    text-paddingtransform: capitalize;
 }
 .newInternet {
     display: flex;
@@ -233,8 +233,7 @@ h2 {
     line-height: 24px;
 }
 .styleBorderradiusfor {
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 16px;
@@ -352,7 +351,9 @@ h3 {
 }
 .styledivfive {
     display: flex;
-    gap: 32px;
+    align-items: center;
+    gap: 40px;
+    
 }
 .styledivfive span {
     color: rgb(255, 255, 255);
@@ -364,4 +365,216 @@ h3 {
     color: rgb(122, 122, 122);
     font-size: 18px;
     font-weight: 400;
+    display: flex;
 }
+.styleconteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.priceconteiner{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.priceconteinerOne{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    background: #191919;
+    gap: 16px;
+    flex-direction: column;
+}
+.divfooter{
+    display: flex;
+    
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+.footerOne{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.footerOneSpan{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.footerOneSpanTwo{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.footerOneSpanThree{
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 400;
+}
+.divbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    align-self: stretch;
+}
+
+.buttonstylethree{
+    color:  #FFF;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 108px 21px 108px;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1.5px solid #FF371A;
+    background: #FF371A;
+    
+    
+    
+   
+}
+.divgap{
+    display: flex;
+    gap: 10px;
+   
+
+}
+.divbuttongap{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+   
+}
+.divbuttongap span{
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 400;
+}
+.borderstyle{
+    width: 340px;
+    height: 1px;
+    background: #888;
+}
+.pricefooter{
+    display: flex;
+    align-items: flex-start;
+    gap: 82px;
+}
+.iconstyle{
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+}
+.iconstyle span{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.iconstyle p{
+    color: #7A7A7A;
+    font-size: 18px;
+    font-weight: 400;
+}
+.buttonfor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.buttonfor button{
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    padding: 5px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    background: #FF371A;
+}
+
+.buttonstylethre{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 108px 21px 108px;
+    justify-content: center;
+    border: 1.5px solid #FF371A;
+}
+
+/* footer */
+.footerbox{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+    gap: 64px;
+}
+.styledivalt{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+
+
+.listStyletwo p{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+ul {
+    list-style: none;
+
+} 
+.listStyletwo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footerStylebox{
+    display: flex;
+    width: 500px;
+    align-items: flex-start;
+    align-self: stretch;
+    justify-content: space-between;
+    
+    
+}
+.stylelifooter{
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.styledivbaj{
+    display: flex;
+    gap: 32px;
+}
+.styledivbaj span{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.styleIcon{
+    display: flex;
+    gap: 24px;
+}
+.styleNew{
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.10);
+}
+
+
